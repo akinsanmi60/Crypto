@@ -9,6 +9,8 @@ type InfoProp = {
 
 const Coininfo = ({ coin, symbol }: InfoProp) => {
     let profit = coin?.price_change_percentage_24h >= 0
+        console.log("e456678=============9",profit)
+
     return (
         <InfoWrapper>
             <div className='coin-row'>
